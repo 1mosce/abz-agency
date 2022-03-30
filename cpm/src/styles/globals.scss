@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+button {
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+h1{
+  font-size: 40px;
+  line-height: 40px;
+}
+
+p{
+  font-size: 16px;
+  line-height: 26px;
+}
+
+button {
+  border: none;
+  background: $button-primary-color;
+  border-radius: 80px;
+  margin: 5px;
+  padding: 4px 12px;
+  width: 100%;
+
+  @media screen and (min-width: $tablet-width) {
+    width: auto;
+    padding: 9px 29px;
+  }
+}
+
+button:hover {
+  background: $button-hover-color;
+}

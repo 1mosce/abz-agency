@@ -1,0 +1,34 @@
+@import "../variables.scss";
+
+.screen-wrapper {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets//pexels-alexandr-podvalny-1227513.jpeg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 500px;
+  display: flex;
+
+  @media screen and (min-width:$tablet-width) {
+    align-items: center;  
+    height: 100vh;
+  }
+
+  .text-area {
+    text-align: center;
+    padding-top: 40px;
+
+    @media screen and (min-width:$tablet-width) {
+      padding-top: 0px;
+    }
+
+    h1{
+      color:$color-white;
+      padding-bottom: 21px;
+    }
+
+    p{
+      color:$color-white;
+    }
+  }
+}

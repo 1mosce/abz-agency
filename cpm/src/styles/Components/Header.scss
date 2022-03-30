@@ -1,0 +1,33 @@
+@import "../variables.scss";
+
+.header-wraper {
+  height: 60px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+
+  .logo-container {
+    margin: 17px 14px auto 16px;
+
+    @media screen and (min-width: $tablet-width) {
+      margin: auto;
+      margin-left: 0;
+      padding: 9px 29px;
+    }
+  }
+
+  .button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    @media screen and (min-width: $tablet-width) {
+      width: auto;
+    }
+
+   
+  }
+}

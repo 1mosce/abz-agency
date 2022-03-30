@@ -1,26 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap");
+@import "variables.scss";
+@import "globals.scss";
+
+@import "Components/Global/Container.scss";
+
+
 @import "Components/Header.scss";
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+@import "Components/Greetings.scss";
 
 
-.container {
-  margin: 0 auto;
-  padding: 0px 15px;
-  max-width: 100%;
-  width: 100%;
 
-  @media screen and(min-width:768px){
-    padding: 0px 46px;
-    max-width: 768px;
-  }
-
-  @media screen and(min-width:1200px){
-    padding: 0px 20px;
-    max-width: 1200px;
-  }
-}
 
